@@ -1,0 +1,9 @@
+26 Jun 2018 02:25:34.627err [2018-06-25 23:25:34.311] [ERROR] [routes/mobile/sync] - [API1005] DCA data sync failed, error:  TypeError: Cannot read property 'forEach' of undefined
+    at appointment.patient.treatmentPlan.taskAnalysisObjectives.forEach.objective (/var/app/current/app/services/sync.js:253:44)
+    at Array.forEach (native)
+    at appointments.forEach.appointment (/var/app/current/app/services/sync.js:244:66)
+    at Array.forEach (native)
+    at assignGeneralizationIds (/var/app/current/app/services/sync.js:211:18)
+    at Object.module.exports.syncAppointments (/var/app/current/app/services/sync.js:50:9)
+
+TEST
